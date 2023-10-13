@@ -18,3 +18,14 @@ Save the Script:
   - download as window ico
 - Upload the icon to the root folder of your project
 - Add this snippet	<ApplicationIcon>Iconarchive-Incognito-Animal-2-Dino-Tyrannosaurus.ico</ApplicationIcon> to the csproject
+
+### Disable Code warning lines
+
+#pragma warning disable RULE_ID
+// The code that produces the warning
+#pragma warning restore RULE_ID
+
+Example
+
+#pragma warning disable CA1416 // Validate platform compatibility
+#pragma warning restore CA1416 // Validate platform compatibility
